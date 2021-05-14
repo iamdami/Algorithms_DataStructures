@@ -1,8 +1,8 @@
 main() {
 	int limit;
-	scanf(¡°%d¡±, &limit); //ÀÔ·ÂÀ» ¹ŞÀ½
-	for(i=1; i<=limit; i=i+2) //¼øÈ¯ÇÏ¸ç Ãâ·Â
+	scanf(â€œ%dâ€, &limit); //ì…ë ¥ ë°›ìŒ
+	for(i=1; i<=limit; i=i+2) //ìˆœí™˜í•˜ë©° ì¶œë ¥
 	{
-		printf(¡°%d¡±, i);
+		printf(â€œ%dâ€, i);
 	}
 }
