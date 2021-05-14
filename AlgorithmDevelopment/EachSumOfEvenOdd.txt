@@ -12,5 +12,5 @@ add() {
 	}
 }
 output() {
-	printf(¡°%d %d¡±, odd, even);	
+	printf(â€œ%d %dâ€, odd, even);	
 }
