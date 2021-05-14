@@ -1,11 +1,11 @@
 main() {
 	int score[2][30], num;
-	scanf(¡°%d¡±, &num);
+	scanf(â€œ%dâ€, &num);
 	for(i=1; i<30; i=i + 1)
 	{
 		if(score[0][i]==num
 		{
-			printf(¡°%d¡±, score[1][i];
+			printf(â€œ%dâ€, score[1][i];
 			break;
 		}
 	}
