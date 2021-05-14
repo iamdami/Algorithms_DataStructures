@@ -4,12 +4,12 @@ main() {
 	{
 		if(flag==1)
 		{
-			sum=sum-I;
+			sum=sum-i;
 			flag=0
 		} else {
-			sum=sum+I;
+			sum=sum+i;
 			flag=1;
 		}
 	}
-	printf(¡°%d¡±, sum);
+	printf(Â¡Â°%dÂ¡Â±, sum);
 }
