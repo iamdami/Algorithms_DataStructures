@@ -1,0 +1,12 @@
+main() {
+	int inputValue;
+	char* decision;
+
+	scanf(“%d”, &inputValue); // 입력받음
+	if(inputValue>0) // 양수이면
+		decision="양수";
+	else if(inputValue<0) // 음수이면
+		decision="음수";
+	else decision="제로"; // 양수, 음수가 아니면
+	printf(“%s”, decision);
+}

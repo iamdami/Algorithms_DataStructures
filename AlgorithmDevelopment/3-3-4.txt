@@ -1,0 +1,10 @@
+main() {
+	int student[50], total=0, average;
+	for(i=1; i<=49; i=i + 1)
+	{
+		scanf(¡°%d¡±, &student[i]);
+		total=total+student[i];
+	}
+	average=total/50;
+	printf(¡°%d¡±, average);
+}

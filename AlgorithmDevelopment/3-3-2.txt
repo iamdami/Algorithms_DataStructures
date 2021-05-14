@@ -1,0 +1,8 @@
+main() {
+	int limit;
+	scanf(“%d”, &limit); //입력을 받음
+	for(i=1; i<=limit; i=i+2) //순환하며 출력
+	{
+		printf(“%d”, i);
+	}
+}
