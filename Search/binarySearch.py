@@ -1,4 +1,4 @@
-def binarySearch(arr, targetm start, end):
+def binarySearch(arr, target, start, end):
   if start > end:
     return None
   mid = (start + end) // 2  # start + end 에서 2를 나눈 몫  
