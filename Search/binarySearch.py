@@ -9,7 +9,7 @@ def binarySearch(arr, target, start, end):
   else:
     return binary_search(arr, target, mid + 1, end)  # 중간점 값보다 찾고자 하는 값이 큰 경우 오른쪽 확인  
   
-n, target = list(map(int, input(), split()))  # 원소 개수와 찾고자 하는 값 입력 받기
+n, target = list(map(int, input().split()))  # 원소 개수와 찾고자 하는 값 입력 받기
 arr = list(map(int, input().split()))  # 전체 원소 입력 받기
 
 res = binarySearch(arr, target, 0, n - 1)
