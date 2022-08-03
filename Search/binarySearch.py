@@ -16,6 +16,6 @@ res = binarySearch(arr, target, 0, n - 1)
 if res == None:
   print("원소가 존재하지 않음")
 else:
-  print(result + 1)
+  print(res + 1)
 
   
